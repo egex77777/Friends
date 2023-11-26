@@ -39,7 +39,7 @@ function ENT:Draw()
         surface.DrawTexturedRect(-150,-183,30,30)
 
         -- Mesaj 
-        draw.SimpleText("Donator Shop","donatorShop1",-10,-169,color_white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
+        draw.SimpleText("Silah Rafı","donatorShop1",-10,-169,color_white,TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 
         -- 2. Star
         surface.SetMaterial(star)
