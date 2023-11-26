@@ -28,6 +28,16 @@ DarkRP.createEntity("Çöp Dönüştürme", {
     allowed = {TEAM_ZTM_TRASHMAN}
 })
 
+DarkRP.createEntity("Silahçı Rafı", {
+    ent = "ztm_recycler",
+    model = "models/props_c17/display_cooler01a.mdl",
+    price = 250,
+    max = 2,
+    cmd = "buyraff",
+    category = "Diğer",
+    allowed = {TEAM_SILAHCI}
+})
+
 DarkRP.createEntity("Molotof", {
     ent = "weapon_nmrih_molotov",
     model = "weapon_nmrih_molotov",
