@@ -8,6 +8,26 @@ DarkRP.createEntity("Futbol Topu", {
     allowed = {TEAM_COCUK}
 })
 
+DarkRP.createEntity("Çöp Satma", {
+    ent = "ztm_buyermachine",
+    model = "models/props_borealis/mooring_cleat01.mdl",
+    price = 250,
+    max = 1,
+    cmd = "buycopsat",
+    category = "Diğer",
+    allowed = {TEAM_ZTM_TRASHMAN}
+})
+
+DarkRP.createEntity("Çöp Dönüştürme", {
+    ent = "ztm_recycler",
+    model = "models/props_borealis/mooring_cleat01.mdl",
+    price = 250,
+    max = 1,
+    cmd = "buycopdonustur",
+    category = "Diğer",
+    allowed = {TEAM_ZTM_TRASHMAN}
+})
+
 DarkRP.createEntity("Molotof", {
     ent = "weapon_nmrih_molotov",
     model = "weapon_nmrih_molotov",
