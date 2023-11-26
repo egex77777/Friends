@@ -72,6 +72,15 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
+    name = "Esnaflar",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(29, 0, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 7
+}
+
+DarkRP.createCategory{
     name = "Yetkili Görevde",
     categorises = "jobs",
     startExpanded = true,
