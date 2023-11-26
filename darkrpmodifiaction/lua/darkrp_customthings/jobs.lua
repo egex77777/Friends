@@ -325,7 +325,7 @@ TEAM_GANG = DarkRP.createJob("Nano Ajan", {
 [-] Mug yapamaz.
 [+] Raid atabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"wf_wpn_kn14", "lockpick", "aphone", cw_akm_official"},
+    weapons = {"wf_wpn_kn14", "lockpick", "aphone", "cw_akm_official"},
     command = "nanoajan",
     max = 1,
     salary = 0,
@@ -439,7 +439,7 @@ TEAM_FAISE = DarkRP.createJob("Hayat Kadını", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_cuff_elastic, csgo_navaja"},
+    weapons = {"weapon_cuff_elastic", "csgo_navaja"},
     command = "faise",
     max = 1,
     salary = 0,
@@ -862,21 +862,25 @@ TEAM_POLIS = DarkRP.createJob("Polis", {
     category = "Devlet",
 })
 
-TEAM_SILAHCI = DarkRP.createJob("Silah Satıcısı", {
-    color = Color(20, 150, 20, 255),
-    model = {"models/player/Suits/male_06_closed_tie.mdl"},
-    description = [[İnsanlar ile anlaşıp anlaştığınız fiyata silah satarsın.
+TEAM_SILAHCI = DarkRP.createJob("Silahçı", {
+    color = Color(15, 14, 14, 255),
+    model = {"models/hellinspector/familyguy_bttm/peter_pm.mdl"},
+    description = [[Silahçısın.
 
-[-] Mug yapamaz.
-[-] Raid atamaz.
-[-] Kidnap yapamaz.]],
-    weapons = {"csgo_huntsman_rustcoat", "cw_deagle"},
+[+] Mug yapamaz.
+[+] Raid atamaz.
+[+] Kidnap yapamaz.]],
+    weapons = {"wf_wpn_pt41", "lockpick", "aphone"},
     command = "silahci",
     max = 2,
-    salary = 2000,
+    salary = 0,
     admin = 0,
     vote = false,
     category = "Sivil",
+    customCheck = function(ply) return
+        table.HasValue({"sliahci_acces"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "Silahçı olmak için iznin yok!",
 })
 
 --[[---------------------------------------------------------------------------
