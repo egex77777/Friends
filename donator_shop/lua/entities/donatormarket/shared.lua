@@ -1,7 +1,7 @@
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 
-ENT.PrintName = "Donator Marketi"
+ENT.PrintName = "Silah Rafı"
 ENT.Category = "SavioR-RScripting"
 
 ENT.Spawnable = true
