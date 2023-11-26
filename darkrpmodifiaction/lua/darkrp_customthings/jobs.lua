@@ -900,3 +900,4 @@ GAMEMODE.CivilProtection = {
 --[[---------------------------------------------------------------------------
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------]]
+// açlık, uyku v.s eklemeler yapıldı
