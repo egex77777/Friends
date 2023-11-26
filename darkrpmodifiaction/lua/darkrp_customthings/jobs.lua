@@ -6,7 +6,7 @@ TEAM_GUVENLIK = DarkRP.createJob("Özel Güvenlik", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"wf_wpn_pt14", "arrest_stick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"wf_wpn_pt14", "arrest_stick", "aphone", "weapon_cuff_elastic"},
     command = "guvelikk",
     max = 2,
     salary = 900,
@@ -23,7 +23,7 @@ TEAM_DELI = DarkRP.createJob("Deli", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "deli",
     max = 2,
     salary = 200,
@@ -40,7 +40,7 @@ TEAM_KIMYAGER = DarkRP.createJob("Kimyager", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "kimyager",
     max = 2,
     salary = 750,
@@ -74,7 +74,7 @@ TEAM_KAFESAHIBI = DarkRP.createJob("Kafe Sahibi", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "kafesahibi",
     max = 1,
     salary = 850,
@@ -91,7 +91,7 @@ TEAM_MEYHANE = DarkRP.createJob("Gitarist", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"guitar_stalker", "glorifiedbanking_card"},
+    weapons = {"guitar_stalker", "aphone"},
     command = "meyhaneci",
     max = 1,
     salary = 500,
@@ -108,7 +108,7 @@ TEAM_PIYANO = DarkRP.createJob("Piyanist", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "piyanocu",
     max = 1,
     salary = 700,
@@ -125,7 +125,7 @@ TEAM_RUS = DarkRP.createJob("Rus Mafya Lideri", {
 [+] Mug yapabilir.
 [+] Raid atabilir.
 [+] Kidnap yapabilir.]],
-    weapons = {"wf_wpn_pt41", "dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"wf_wpn_pt41", "lockpick", "aphone", "weapon_cuff_elastic"},
     command = "rus",
     max = 1,
     salary = 0,
@@ -140,13 +140,13 @@ TEAM_RUS = DarkRP.createJob("Rus Mafya Lideri", {
 
 TEAM_PARALIASKERLIDERI = DarkRP.createJob("Paralı Asker Lideri", {
     color = Color(15, 14, 14, 255),
-    model = {"models/makarov/makarov.mdl", "glorifiedbanking_card"},
+    model = {"models/makarov/makarov.mdl", "aphone"},
     description = [[Paralı askerlerin liderisin. Sözün her yerde geçiyor!
 
 [-] Mug yapamaz.
 [+] Raid atabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"wf_wpn_pt41", "dsr_lockpick", "glorifiedbanking_card"},
+    weapons = {"wf_wpn_pt41", "lockpick", "aphone"},
     command = "paraaskerlider",
     max = 1,
     salary = 0,
@@ -171,7 +171,7 @@ TEAM_PARALIASKER = DarkRP.createJob("Paralı Asker", {
 [-] Mug yapamaz.
 [+] Raid atabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"wf_wpn_pt41", "dsr_lockpick", "glorifiedbanking_card"},
+    weapons = {"wf_wpn_pt41", "lockpick", "aphone"},
     command = "paraasker",
     max = 3,
     salary = 0,
@@ -188,7 +188,7 @@ TEAM_RUSS = DarkRP.createJob("Rus Mafya Üyesi", {
 [+] Mug yapabilir.
 [+] Raid atabilir.
 [+] Kidnap yapabilir.]],
-    weapons = {"dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"lockpick", "aphone", "weapon_cuff_elastic"},
     command = "russ",
     max = 4,
     salary = 0,
@@ -205,7 +205,7 @@ TEAM_KEKO = DarkRP.createJob("Keko", {
 [+] Mug yapabilir.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_hl2brokenbottle", "glorifiedbanking_card"},
+    weapons = {"weapon_hl2brokenbottle", "aphone"},
     command = "keko",
     max = 2,
     salary = 0,
@@ -222,7 +222,7 @@ TEAM_CITIZEN = DarkRP.createJob("Vatandaş", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "citizen",
     max = 0,
     salary = 350,
@@ -239,7 +239,7 @@ TEAM_BANKACI = DarkRP.createJob("Bankacı", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "bankaci",
     max = 1,
     salary = 1100,
@@ -256,7 +256,7 @@ TEAM_AVUKAT = DarkRP.createJob("Avukat", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"arrest_stick", "glorifiedbanking_card"},
+    weapons = {"arrest_stick", "aphone"},
     command = "avukat",
     max = 2,
     salary = 780,
@@ -273,7 +273,7 @@ TEAM_BEKCIAMIR = DarkRP.createJob("Bekçi Amir", {
 [-] Mug yapamaz.
 [-] Baskın atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedhandcuffs_handcuffs", "dsr_metal_detector", "dsr_taser", "wf_wpn_pt14_lava01", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"wf_wpn_pt14", "weaponchecker", "weapon_cuff_police", "wf_wpn_pt14_lava01", "arrest_stick", "aphone"},
     command = "bekciamir",
     max = 1,
     salary = 1200,
@@ -290,7 +290,7 @@ TEAM_BEKCI = DarkRP.createJob("Bekçi", {
 [-] Mug yapamaz.
 [-] Baskın atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedhandcuffs_handcuffs", "dsr_metal_detector", "dsr_taser", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"wf_wpn_pt14", "weaponchecker", "weapon_cuff_police", "arrest_stick", "aphone"},
     command = "bekci",
     max = 2,
     salary = 900,
@@ -307,7 +307,7 @@ TEAM_GANG = DarkRP.createJob("Grove Çete Lideri", {
 [+] Mug yapabilir.
 [+] Raid atabilir.
 [+] Kidnap yapabilir.]],
-    weapons = {"wf_wpn_smg04_camo02", "dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"wf_wpn_smg04_camo02", "lockpick", "aphone", "weapon_cuff_elastic"},
     command = "siyahgangster",
     max = 1,
     salary = 0,
@@ -325,7 +325,7 @@ TEAM_GANG = DarkRP.createJob("Nano Ajan", {
 [-] Mug yapamaz.
 [+] Raid atabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"tfa_l4d2_kfkat", "dsr_lockpick", "glorifiedbanking_card", "weapon_adv_cloak"},
+    weapons = {"wf_wpn_kn14", "lockpick", "aphone", cw_akm_official"},
     command = "nanoajan",
     max = 1,
     salary = 0,
@@ -350,7 +350,7 @@ TEAM_GANG = DarkRP.createJob("Grove Çete Üyesi", {
 [+] Mug Yapabilir
 [+] Raid atabilir
 [+] Kidnap Yapabilir]],
-    weapons = {"weapon_hl2pipe", "dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"weapon_hl2pipe", "lockpick", "aphone", "weapon_cuff_elastic"},
     command = "siyahhgangster",
     max = 3,
     salary = 0,
@@ -367,7 +367,7 @@ TEAM_BALLASTT = DarkRP.createJob("Ballas Çete Lideri", {
 [+] Mug Yapabilir
 [+] Raid atabilir
 [+] Kidnap Yapabilir]],
-    weapons = {"wf_wpn_smg04_camo02", "dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"wf_wpn_smg04_camo02", "lockpick", "aphone", "weapon_cuff_elastic"},
     command = "hvsqsaqa",
     max = 1,
     salary = 0,
@@ -388,7 +388,7 @@ TEAM_BALLAS22 = DarkRP.createJob("Ballas Çete Üyesi", {
 [+] Mug Yapabilir
 [+] Raid atabilir
 [+] Kidnap Yapabilir]],
-    weapons = {"weapon_hl2pipe", "dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"weapon_hl2pipe", "lockpick", "aphone", "weapon_cuff_elastic"},
     command = "qqquusss",
     max = 3,
     salary = 0,
@@ -405,7 +405,7 @@ TEAM_HIRSIZ = DarkRP.createJob("Hırsız", {
 [+] Mug yapabilir.
 [+] Raid atabilir.
 [+] Kidnap yapabilir.]],
-    weapons = {"dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"lockpick", "aphone", "weapon_cuff_elastic"},
     command = "hirsiz",
     max = 4,
     salary = 0,
@@ -418,7 +418,7 @@ TEAM_PROHIRSIZ = DarkRP.createJob("Profesyonel Hırsız", {
     color = Color(255, 0, 0, 255),
     model = {"models/player/Suits/robber_open.mdl"},
     description = [[]],
-    weapons = {"dsr_lockpick", "wf_wpn_smg44_desert01", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"lockpick", "wf_wpn_smg44_desert01", "aphone", "weapon_cuff_elastic"},
     command = "prohirsiz",
     max = 2,
     salary = 0,
@@ -439,7 +439,7 @@ TEAM_FAISE = DarkRP.createJob("Hayat Kadını", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic, csgo_navaja"},
     command = "faise",
     max = 1,
     salary = 0,
@@ -456,7 +456,7 @@ TEAM_ORGANIZATOR = DarkRP.createJob("John Cena", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "johncena",
     max = 1,
     salary = 0,
@@ -477,7 +477,7 @@ TEAM_BGUVENLIK = DarkRP.createJob("Banka Güvenliği", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"wf_wpn_pt14", "glorifiedbanking_card"},
+    weapons = {"wf_wpn_pt14", "aphone"},
     command = "bankaguvelik",
     max = 3,
     salary = 600,
@@ -494,7 +494,7 @@ TEAM_ADAMK = DarkRP.createJob("İnsan Kaçakcısı", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [+] Kidnap yapabilir.]],
-    weapons = {"weapon_cuff_elastic", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"weapon_cuff_elastic", "aphone"},
     command = "adamkacirisi",
     max = 2,
     salary = 0,
@@ -511,7 +511,7 @@ TEAM_HITMAN = DarkRP.createJob("Kiralık Katil", {
 [-] Mug yapamaz.
 [+] Raid atabilir ( hit aldığı kişi base içerisindeyse ).
 [-] Kidnap yapamaz.]],
-    weapons = {"wf_wpn_kn01", "dsr_lockpick", "glorifiedbanking_card"},
+    weapons = {"wf_wpn_kn01", "lockpick", "aphone"},
     command = "hitman",
     max = 1,
     salary = 0,
@@ -545,7 +545,7 @@ TEAM_SURIYELI = DarkRP.createJob("Mülteci", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_hl2brokenbottle", "glorifiedbanking_card"},
+    weapons = {"weapon_hl2brokenbottle", "aphone"},
     command = "surii",
     max = 3,
     salary = 50,
@@ -562,7 +562,7 @@ TEAM_MAFYABABASI = DarkRP.createJob("Mafya Babası", {
 [+] Mug yapabilir.
 [+] Raid atabilir.
 [+] Kidnap yapabilir.]],
-    weapons = {"weapon_uni_cracker", "dsr_lockpick", "wf_wpn_pt05", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"weapon_uni_cracker", "lockpick", "wf_wpn_pt05", "aphone", "weapon_cuff_elastic"},
     command = "mafyababa",
     max = 1,
     salary = 0,
@@ -583,7 +583,7 @@ TEAM_MAFYA = DarkRP.createJob("Mafya Üyesi", {
 [+] Mug yapabilir.
 [+] Raid atabilir.
 [+] Kidnap yapabilir.]],
-    weapons = {"dsr_lockpick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"lockpick", "aphone", "weapon_cuff_elastic"},
     command = "mafyauye",
     max = 4,
     salary = 0,
@@ -600,7 +600,7 @@ TEAM_COCUK = DarkRP.createJob("Çocuk", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "cocuk",
     max = 3,
     salary = 50,
@@ -617,7 +617,7 @@ TEAM_SISKO = DarkRP.createJob("Şişko", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "sisko",
     max = 3,
     salary = 150,
@@ -634,7 +634,7 @@ TEAM_DOKTOR = DarkRP.createJob("Doktor", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"dsr_medkit", "glorifiedbanking_card"},
+    weapons = {"weapon_medkit", "aphone"},
     command = "medic",
     max = 3,
     salary = 760,
@@ -652,7 +652,7 @@ TEAM_PARKURCU = DarkRP.createJob("Parkurcu", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"climb_swep2", "glorifiedbanking_card"},
+    weapons = {"climb_swep2", "aphone"},
     command = "parkurcu",
     max = 2,
     salary = 250,
@@ -666,7 +666,7 @@ TEAM_HAKIM = DarkRP.createJob("Hakim", {
     color = Color(25, 25, 170, 255),
     model = "models/player/Suits/male_02_open_tie.mdl",
     description = [[]],
-    weapons = {"unarrest_stick", "arrest_stick", "glorifiedbanking_card", "weapon_cuff_elastic"},
+    weapons = {"unarrest_stick", "arrest_stick", "aphone", "weapon_cuff_elastic"},
     command = "hakim",
     max = 1,
     salary = 1250,
@@ -683,7 +683,7 @@ TEAM_BKIZI = DarkRP.createJob("Başkanın Kızı", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_cuff_elastic", "dsr_metal_detector", "dsr_taser", "wf_wpn_ar04_camo04", "arrest_stick", "unarrest_stick", "glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic", "weaponchecker", "weapon_cuff_police", "wf_wpn_ar04_camo04", "arrest_stick", "unarrest_stick", "aphone"},
     command = "baskankizi",
     max = 1,
     salary = 500,
@@ -697,7 +697,7 @@ TEAM_BASKAN = DarkRP.createJob("Başkan", {
     color = Color(4, 0, 255),
     model = "models/player/breen.mdl",
     description = [[SideRP şehrinin başkanısın. Şehiri yönetmek için kanunları düzenliyebilirsin.  [-] Mug yapamaz. [-] Raid atamaz. [-] Kidnap yapamaz.]],
-    weapons = {"weapon_cuff_elastic", "dsr_metal_detector", "dsr_taser", "wf_wpn_ar04_camo04", "arrest_stick", "unarrest_stick", "glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic", "weaponchecker", "weapon_cuff_police", "wf_wpn_ar04_camo04", "arrest_stick", "unarrest_stick", "aphone"},
     command = "baskan",
     max = 1,
     salary = 8000,
@@ -722,7 +722,7 @@ TEAM_BASKANKORUMASI = DarkRP.createJob("Başkan Koruması", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_cuff_elastic", "dsr_metal_detector", "dsr_taser", "wf_wpn_ar04_camo04", "arrest_stick", "unarrest_stick", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic", "weaponchecker", "weapon_cuff_police", "wf_wpn_ar04_camo04", "arrest_stick", "unarrest_stick", "arrest_stick", "aphone"},
     command = "baskankorumasi",
     max = 2,
     salary = 1700,
@@ -742,7 +742,7 @@ TEAM_POH = DarkRP.createJob("Polis Özel Harekat", {
 [-] Mug yapamaz.
 [+] Baskın atabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"dsr_battering_ram", "weapon_cuff_elastic", "dsr_metal_detector", "dsr_taser", "wf_wpn_ar29_bp05", "dsr_lockpick", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"door_ram", "weapon_cuff_elastic", "weaponchecker", "weapon_cuff_police", "wf_wpn_ar29_bp05", "lockpick", "arrest_stick", "aphone"},
     command = "poh",
     max = 3,
     salary = 2000,
@@ -763,7 +763,7 @@ TEAM_POHAMIR = DarkRP.createJob("PÖH Amir", {
 [-] Mug yapamaz.
 [+] Baskın atabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_cuff_elastic", "dsr_metal_detector", "dsr_taser", "wf_wpn_ar02", "unarrest_stick", "factory_lockpick", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic", "weaponchecker", "weapon_cuff_police", "wf_wpn_ar02", "unarrest_stick", "factory_lockpick", "arrest_stick", "aphone"},
     command = "poha",
     max = 1,
     salary = 3000,
@@ -780,7 +780,7 @@ TEAM_EMNIYETAMIRI = DarkRP.createJob("Emniyet Amiri", {
     color = Color(25, 25, 170, 255),
     model = "models/player/Suits/male_09_shirt.mdl",
     description = [[]],
-    weapons = {"weapon_cuff_elastic", "dsr_taser", "wf_wpn_pt14", "unarrest_stick", "dsr_lockpick", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic", "weapon_cuff_police", "wf_wpn_pt14", "unarrest_stick", "lockpick", "arrest_stick", "aphone"},
     command = "emniyetamirii",
     max = 1,
     salary = 2500,
@@ -801,7 +801,7 @@ TEAM_HOBO = DarkRP.createJob("Dilenci", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "hobo",
     max = 4,
     salary = 0,
@@ -818,7 +818,7 @@ TEAM_TORBACI = DarkRP.createJob("Torbacı", {
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "torbaci",
     max = 2,
     salary = 0,
@@ -835,7 +835,7 @@ TEAM_ELEKTRONIKSIGARASATICISI = DarkRP.createJob("Elektronik Sigara Satıcısı"
 [-] Mug yapamaz.
 [-] Raid atamaz.
 [-] Kidnap yapamaz.]],
-    weapons = {"glorifiedbanking_card"},
+    weapons = {"aphone"},
     command = "elektroniksigarasaticisi",
     max = 2,
     salary = 0,
@@ -853,7 +853,7 @@ TEAM_POLIS = DarkRP.createJob("Polis", {
 [-] Mug yapamaz.
 [+] Baskın yapabilir.
 [-] Kidnap yapamaz.]],
-    weapons = {"weapon_cuff_elastic", "dsr_metal_detector", "dsr_taser", "wf_wpn_pt14", "unarrest_stick", "dsr_lockpick", "arrest_stick", "glorifiedbanking_card"},
+    weapons = {"weapon_cuff_elastic", "weaponchecker", "weapon_cuff_police", "wf_wpn_pt14", "unarrest_stick", "lockpick", "arrest_stick", "aphone"},
     command = "polis",
     max = 3,
     salary = 2000,
